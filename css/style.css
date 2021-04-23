@@ -96,6 +96,7 @@ body {
     height: 50px;
     border: 2px solid #f8f8f9;
     border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .chat-person .message-texts h4, p{
     margin-top: 5px;
@@ -192,5 +193,12 @@ body {
 
 }
 .nav-right{
+    display: flex;
 
+}
+.drop-down{
+    display: flex;
+}
+.drop-down i{
+    margin-left: 10px;
 }
