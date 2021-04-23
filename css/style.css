@@ -166,13 +166,13 @@ body {
 
  .navbar {
      display: flex;
-     background-color: #333;
+     background-color: #fff;
      justify-content: space-between;
  }
 
  /* Style the navigation bar links */
  .navbar a {
-     color: white;
+     color: #535a67;
      padding: 14px 20px;
      text-decoration: none;
      text-align: center;
@@ -194,7 +194,13 @@ body {
 }
 .nav-right{
     display: flex;
-
+}
+.nav-right .avatar{
+    align-self: center;
+}
+.nav-right .avatar img{
+    width: 30px;
+    height: 30px;
 }
 .drop-down{
     display: flex;
