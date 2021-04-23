@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    color: #2c3644;
 }
 a{
     text-decoration: none;
@@ -41,10 +42,13 @@ body {
     z-index: 100;
     overflow: hidden;
 }
-.side-left .fas{
+.side-left .nav-links i{
+    color:#fc8a94;
+}
+.side-left i{
     font-size: 30px;
 }
-.fas{
+i{
     display: block;
 }
 
@@ -188,6 +192,7 @@ body {
  }
 .logo-wrap{
     background: #fc8a94;
+    padding: 0 9px;
 }
 .logo-wrap img{
 
